@@ -93,4 +93,10 @@
     <string name="pref_ringtone_silent">Silent</string>
 
     <string name="pref_title_vibrate">Vibrate</string>
+    <string name="image_used_for_menu_button">Image used for menu button</string>
+    <string name="favorite_radio_station_button">Favorite radio station button</string>
+    <string name="image_of_album_cover_of_current_song">Image of album cover of current song</string>
+    <string name="thumbs_up_current_song">Thumbs up current song</string>
+    <string name="pause_or_play_current_song">Pause or play current song</string>
+    <string name="skip_song">Skip song</string>
 </resources>

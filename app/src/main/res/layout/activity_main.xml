@@ -23,13 +23,14 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:background="@color/colorPrimaryDark"
+            android:contentDescription="@string/image_used_for_menu_button"
             app:srcCompat="@android:drawable/ic_menu_sort_by_size"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="0dp" />
 
         <TextView
             android:id="@+id/radioStationNameTextView"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
@@ -46,6 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:background="@color/colorPrimaryDark"
+            android:contentDescription="@string/favorite_radio_station_button"
             app:srcCompat="@android:drawable/btn_star_big_off" />
     </LinearLayout>
 
@@ -64,6 +66,7 @@
             android:layout_height="0dp"
             android:layout_margin="16dp"
             android:layout_weight="1"
+            android:contentDescription="@string/image_of_album_cover_of_current_song"
             android:scaleType="fitCenter"
             app:srcCompat="@android:drawable/ic_menu_report_image" />
 
@@ -85,7 +88,7 @@
             android:layout_marginStart="16dp"
             android:text="@string/artistNameText"
             android:textColor="@android:color/primary_text_dark"
-            android:textSize="10sp" />
+            android:textSize="12sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -135,6 +138,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
+                android:contentDescription="@string/thumbs_up_current_song"
                 app:srcCompat="@android:drawable/star_off" />
 
             <ImageButton
@@ -145,6 +149,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
+                android:contentDescription="@string/pause_or_play_current_song"
                 android:onClick="pausePlaySong"
                 app:srcCompat="@android:drawable/ic_media_pause" />
 
@@ -156,6 +161,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
+                android:contentDescription="@string/skip_song"
                 app:srcCompat="@android:drawable/ic_media_next" />
         </LinearLayout>
 
