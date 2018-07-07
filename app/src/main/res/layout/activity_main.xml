@@ -24,6 +24,7 @@
             android:layout_marginStart="16dp"
             android:background="@color/colorPrimaryDark"
             android:contentDescription="@string/image_used_for_menu_button"
+            android:onClick="openMenu"
             app:srcCompat="@android:drawable/ic_menu_sort_by_size"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="0dp" />
@@ -139,6 +140,7 @@
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
                 android:contentDescription="@string/thumbs_up_current_song"
+                android:onClick="thumbsUpCurrentSong"
                 app:srcCompat="@android:drawable/star_off" />
 
             <ImageButton
@@ -162,6 +164,7 @@
                 android:layout_weight="1"
                 android:background="@color/colorPrimaryDark"
                 android:contentDescription="@string/skip_song"
+                android:onClick="nextSong"
                 app:srcCompat="@android:drawable/ic_media_next" />
         </LinearLayout>
 
