@@ -85,7 +85,9 @@ public class MainActivity extends AppCompatActivity {
      * @return           if the song is paused
      * */
     private boolean playSong(ImageButton playButton) {
-        //TODO Play the song
+        //TODO Play the song & remove toast
+        String toastText = "Play song";
+        Toast.makeText(getApplicationContext(), toastText, Toast.LENGTH_SHORT).show();
         playButton.setImageResource(android.R.drawable.ic_media_pause);
         return false;
     }
@@ -97,7 +99,9 @@ public class MainActivity extends AppCompatActivity {
      * @return           if the song is paused
      * */
     private boolean pauseSong(ImageButton pauseButton) {
-        //TODO Pause the song
+        //TODO Pause the song & remove toast
+        String toastText = "Pause song";
+        Toast.makeText(getApplicationContext(), toastText, Toast.LENGTH_SHORT).show();
         pauseButton.setImageResource(android.R.drawable.ic_media_play);
         return true;
     }
