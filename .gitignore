@@ -8,3 +8,9 @@
 /build
 /captures
 .externalNativeBuild
+
+\.idea/
+
+build\.gradle
+
+gradle/wrapper/
