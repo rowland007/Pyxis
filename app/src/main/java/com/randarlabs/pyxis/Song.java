@@ -1,4 +1,4 @@
-package com.cetus.pithos;
+package com.randarlabs.pyxis;
 
 public class Song {
     private String artist, album, songTitle;

@@ -1,4 +1,4 @@
-package com.cetus.pithos;
+package com.randarlabs.pyxis;
 
 
 import android.os.Bundle;

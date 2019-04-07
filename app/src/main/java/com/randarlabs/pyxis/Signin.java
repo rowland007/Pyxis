@@ -1,4 +1,4 @@
-package com.cetus.pithos;
+package com.randarlabs.pyxis;
 
 import com.cetus.pithos.XMLRPC.RPCCallback;
 import com.cetus.pithos.XMLRPC.XMLRPCResponse;

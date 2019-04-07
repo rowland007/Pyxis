@@ -1,4 +1,4 @@
-package com.cetus.pithos.Encryption;
+package com.randarlabs.pyxis.Encryption;
 
 import java.security.*;
 import javax.crypto.*;

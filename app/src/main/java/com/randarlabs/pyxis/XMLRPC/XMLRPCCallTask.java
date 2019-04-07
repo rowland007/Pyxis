@@ -1,4 +1,4 @@
-package com.cetus.pithos.XMLRPC;
+package com.randarlabs.pyxis.XMLRPC;
 
 import java.io.BufferedReader;
 import java.io.IOException;

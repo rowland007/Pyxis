@@ -1,4 +1,4 @@
-package com.cetus.pithos.Encryption;
+package com.randarlabs.pyxis.Encryption;
 
 public interface Encryption {
 	// keep this clean in case the encryption algorithm changes

@@ -1,16 +1,15 @@
-package com.cetus.pithos.XMLRPC;
+package com.randarlabs.pyxis.XMLRPC;
 
-public class RPCArgNoType implements RPCArg {
+public class RPCArgString implements RPCArg {
 	String value;
 	
-	public RPCArgNoType(String v) {
+	public RPCArgString(String v) {
 		this.value = v;
 	}
 	
 	@Override
 	public boolean isString() {
-		// TODO Auto-generated method stub
-		return false;
+		return true;
 	}
 
 	@Override
@@ -36,5 +35,5 @@ public class RPCArgNoType implements RPCArg {
 		// TODO Auto-generated method stub
 		return (String) this.value;
 	}
-
+	
 }

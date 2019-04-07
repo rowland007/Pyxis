@@ -1,4 +1,4 @@
-package com.cetus.pithos.XMLRPC;
+package com.randarlabs.pyxis.XMLRPC;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,9 +1,9 @@
-package com.cetus.pithos.XMLRPC;
+package com.randarlabs.pyxis.XMLRPC;
 
-public class RPCArgBoolean implements RPCArg {
-	boolean value;
+public class RPCArgNoType implements RPCArg {
+	String value;
 	
-	public RPCArgBoolean(boolean v) {
+	public RPCArgNoType(String v) {
 		this.value = v;
 	}
 	
@@ -16,7 +16,7 @@ public class RPCArgBoolean implements RPCArg {
 	@Override
 	public boolean isBoolean() {
 		// TODO Auto-generated method stub
-		return true;
+		return false;
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class RPCArgBoolean implements RPCArg {
 	@Override
 	public Object literal() {
 		// TODO Auto-generated method stub
-		return (Object) this.value;
+		return (String) this.value;
 	}
-	
+
 }
