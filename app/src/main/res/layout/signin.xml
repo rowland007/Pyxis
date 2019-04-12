@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent">
+    
+    <TableRow
+        android:layout_marginBottom="20sp">
+        
+        <ImageView 
+			android:src="@drawable/icon"
+			android:layout_height="wrap_content" 
+	        android:id="@+id/imageView1" 
+	        android:layout_width="100dip" 
+	        android:layout_gravity="left"
+	        android:paddingTop="5sp">
+	    </ImageView>
+        
+	    <TextView 
+	     	android:textSize="20sp" 
+	        android:id="@+id/textView1" 
+	        android:textStyle="bold"
+	        android:text="Welcome To Pithos" 
+	        android:layout_marginBottom="10sp" 
+	        android:layout_gravity="left" 
+	        android:gravity="left" 
+	        android:paddingTop="10sp"
+	        android:layout_marginLeft="-250sp">
+	    </TextView>
+	    
+	    <TextView 
+	     	android:textSize="10sp" 
+	        android:id="@+id/textView1" 
+	        android:text="For Android" 
+	        android:paddingTop="35sp"
+	        android:layout_marginLeft="69sp">
+	    </TextView>
+	            
+    </TableRow>
+    
+    <TableRow>
+        <EditText 
+            android:id="@+id/username"
+            android:hint="@string/enter_username" 
+            android:layout_width="300dip"/>
+    </TableRow> 
+    
+    <TableRow>
+        <EditText 
+            android:id="@+id/password"
+            android:hint="@string/enter_password"  
+            android:password="true"
+            android:layout_width="300dip" />
+    </TableRow>
+    
+    <TableRow>
+        <Button 
+            android:text="Login" 
+            android:id="@+id/signinButton"
+            android:layout_width="200dip" />
+    </TableRow>
+</TableLayout>

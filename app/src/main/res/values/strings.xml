@@ -101,4 +101,20 @@
     <string name="thumbs_up_current_song">Thumbs up current song</string>
     <string name="pause_or_play_current_song">Pause or play current song</string>
     <string name="skip_song">Skip song</string>
+
+    <string name="credentials_label">Credentials</string>
+    <string name="pandora_credentials_label">Enter Your Credentials</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="about">About text that needs to be added</string>
+    <string name="username_key">username</string>
+    <string name="password_key">password</string>
+    <string name="verifying_credentials">Verifying Credentials...</string>
+    <string name="invalid_credentials">InvalidCredentials</string>
+    <string name="general_error">A non-rpc error has occurred. Maybe bad url or io issue :-(</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="retrieving_stations">"Retrieving Stations..."</string>
+    <string name="retrieve_stations_error">Cannot retrieve stations</string>
+    <string name="wifi_only_error">Wifi only mode is set. You are not on wifi</string>
+    <string name="wifi_only_key">wifi_only</string>
 </resources>
