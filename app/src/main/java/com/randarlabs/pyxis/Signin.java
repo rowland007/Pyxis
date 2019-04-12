@@ -42,7 +42,7 @@ public class Signin extends Activity {
 					String passwordValue = pw.getText().toString();
 					
 					if (usernameValue.equalsIgnoreCase("") || passwordValue.equalsIgnoreCase("")) {
-						Toast.makeText(getApplicationContext(), "missing credentials", 1000).show();	
+						Toast.makeText(getApplicationContext(), "missing credentials", Toast.LENGTH_SHORT).show();
 					} else {
 						signinUser(usernameValue, passwordValue);
 					}
@@ -60,8 +60,8 @@ public class Signin extends Activity {
 		
 		final Context c = this;
 		
-        final Toast invalidCredentials = Toast.makeText(c, R.string.invalid_credentials, 1000);
-        final Toast error = Toast.makeText(c, R.string.general_error, 1000);
+        final Toast invalidCredentials = Toast.makeText(c, R.string.invalid_credentials, Toast.LENGTH_SHORT);
+        final Toast error = Toast.makeText(c, R.string.general_error, Toast.LENGTH_SHORT);
         
         RPCCallback successCb = new RPCCallback() {
 			public void fire(XMLRPCResponse response) {
@@ -95,7 +95,7 @@ public class Signin extends Activity {
 				myProgressDialog.dismiss();
 				
 				if (response.hasErrors()) {
-					Toast.makeText(c, response.getErrorString(), 1000).show();
+					Toast.makeText(c, response.getErrorString(), Toast.LENGTH_SHORT).show();
 				}
 				//error.show();
 				Log.e("pithos", "Firing error callback");
