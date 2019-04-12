@@ -15,26 +15,24 @@
 	        android:layout_gravity="left"
 	        android:paddingTop="5sp">
 	    </ImageView>
-        
-	    <TextView 
-	     	android:textSize="20sp" 
-	        android:id="@+id/textView1" 
-	        android:textStyle="bold"
-	        android:text="Welcome To Pithos" 
-	        android:layout_marginBottom="10sp" 
-	        android:layout_gravity="left" 
-	        android:gravity="left" 
-	        android:paddingTop="10sp"
-	        android:layout_marginLeft="-250sp">
-	    </TextView>
-	    
-	    <TextView 
-	     	android:textSize="10sp" 
-	        android:id="@+id/textView1" 
-	        android:text="For Android" 
-	        android:paddingTop="35sp"
-	        android:layout_marginLeft="69sp">
-	    </TextView>
+
+		<TextView
+			android:id="@+id/textView1"
+			android:layout_gravity="left"
+			android:layout_marginLeft="-250sp"
+			android:layout_marginBottom="10sp"
+			android:gravity="left"
+			android:paddingTop="10sp"
+			android:text="Welcome To Pyxis"
+			android:textSize="20sp"
+			android:textStyle="bold"></TextView>
+
+		<TextView
+			android:id="@+id/textView1"
+			android:layout_marginLeft="69sp"
+			android:paddingTop="35sp"
+			android:text="A Pandora Radio client"
+			android:textSize="10sp"></TextView>
 	            
     </TableRow>
     
