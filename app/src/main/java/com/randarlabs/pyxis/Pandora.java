@@ -2,16 +2,16 @@ package com.randarlabs.pyxis;
 
 import java.util.ArrayList;
 
-import com.cetus.pithos.XMLRPC.RPCArg;
-import com.cetus.pithos.XMLRPC.RPCArgNoType;
-import com.cetus.pithos.XMLRPC.RPCArgString;
-import com.cetus.pithos.XMLRPC.RPCCallback;
-import com.cetus.pithos.XMLRPC.XMLRPC;
-import com.cetus.pithos.XMLRPC.XMLRPCCallTask;
-import com.cetus.pithos.XMLRPC.XMLRPCResponse;
-import com.cetus.pithos.Utils.UnicodeFormatter;
-import com.cetus.pithos.Encryption.BlowFish;
-import static com.cetus.pithos.Constants.RPC_URL;
+import com.randarlabs.pyxis.XMLRPC.RPCArg;
+import com.randarlabs.pyxis.XMLRPC.RPCArgNoType;
+import com.randarlabs.pyxis.XMLRPC.RPCArgString;
+import com.randarlabs.pyxis.XMLRPC.RPCCallback;
+import com.randarlabs.pyxis.XMLRPC.XMLRPC;
+import com.randarlabs.pyxis.XMLRPC.XMLRPCCallTask;
+import com.randarlabs.pyxis.XMLRPC.XMLRPCResponse;
+import com.randarlabs.pyxis.Utils.UnicodeFormatter;
+import com.randarlabs.pyxis.Encryption.BlowFish;
+import static com.randarlabs.pyxis.Constants.RPC_URL;
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;

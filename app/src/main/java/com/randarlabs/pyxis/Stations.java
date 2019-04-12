@@ -2,8 +2,8 @@ package com.randarlabs.pyxis;
 
 import java.util.ArrayList;
 
-import com.cetus.pithos.XMLRPC.RPCCallback;
-import com.cetus.pithos.XMLRPC.XMLRPCResponse;
+import com.randarlabs.pyxis.XMLRPC.RPCCallback;
+import com.randarlabs.pyxis.XMLRPC.XMLRPCResponse;
 
 import android.app.Activity;
 import android.app.AlertDialog;

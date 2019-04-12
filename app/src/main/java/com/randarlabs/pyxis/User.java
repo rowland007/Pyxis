@@ -2,7 +2,7 @@ package com.randarlabs.pyxis;
 
 import java.util.HashMap;
 
-import com.cetus.pithos.XMLRPC.RPCCallback;
+import com.randarlabs.pyxis.XMLRPC.RPCCallback;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
