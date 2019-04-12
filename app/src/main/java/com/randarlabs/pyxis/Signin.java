@@ -8,6 +8,9 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -17,6 +20,13 @@ import android.widget.Toast;
 
 public class Signin extends Activity {
 	private User u;
+
+    Handler mHandler = new Handler(Looper.getMainLooper()) {
+        @Override
+        public void handleMessage(Message message) {
+
+        }
+    };
 	
 	public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -95,7 +105,9 @@ public class Signin extends Activity {
 				myProgressDialog.dismiss();
 				
 				if (response.hasErrors()) {
-					Toast.makeText(c, response.getErrorString(), Toast.LENGTH_SHORT).show();
+                    Message message = mHandler.obtainMessage();
+                    message.sendToTarget();
+					//Toast.makeText(c, /*response.getErrorString()*/"Network error", Toast.LENGTH_SHORT).show();
 				}
 				//error.show();
 				Log.e("pithos", "Firing error callback");
