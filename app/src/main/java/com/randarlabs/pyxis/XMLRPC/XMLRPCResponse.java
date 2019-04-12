@@ -15,7 +15,7 @@ import org.xml.sax.InputSource;
 
 import android.util.Log;
 
-import com.cetus.pithos.User;
+import com.randarlabs.pyxis.User;
 
 public class XMLRPCResponse {
 	// TODO: this whole class is a disaster. Need either a better way of handling XML

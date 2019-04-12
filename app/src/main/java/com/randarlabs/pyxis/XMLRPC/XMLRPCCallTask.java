@@ -9,7 +9,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import static com.cetus.pithos.Constants.USER_AGENT;
+import static com.randarlabs.pyxis.Constants.USER_AGENT;
 
 
 import android.os.AsyncTask;
