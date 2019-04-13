@@ -9,6 +9,6 @@ public interface Constants extends BaseColumns {
     // Pandora constants
     public static final String USER_AGENT = "Pithos/0.2";
     public static final String PROTOCOL_VERSION = "29";
-	public static final String RPC_URL = "http://www.pandora.com/radio/xmlrpc/v"+PROTOCOL_VERSION+"?";
+	public static final String RPC_URL = "https://www.pandora.com/radio/xmlrpc/v"+PROTOCOL_VERSION+"?";
 	
 }
