@@ -1,14 +1,16 @@
 site_name: Pyxis
+site_url: https://rowland007.github.io/Pyxis/
+site_description: Native Pandora radio client for Android.
+site_author: Randy Rowland
+repo_url: https://github.com/rowland007/Pyxis/
 theme: readthedocs
+strict: true
 markdown_extensions:
   - smarty
   - attr_list
   - admonition
   - toc:
       permalink: True
-plugins:
-  - search:
-      lang: en
 pages:
   - About: index.md
   - Building the application: build.md
