@@ -1,0 +1,16 @@
+site_name: Pyxis
+theme: readthedocs
+markdown_extensions:
+  - smarty
+  - attr_list
+  - admonition
+  - toc:
+      permalink: True
+plugins:
+  - search:
+      lang: en
+pages:
+  - About: index.md
+  - Building the application: build.md
+  - Architecture: architecture.md
+  
