@@ -3,7 +3,7 @@ jdk: oraclejdk8
 os: linux
 
 before_cache:
- - rm -f $HOME/.gradle/caches/
+ - rm -rf $HOME/.gradle/caches/
 
 cache:
  directories:
@@ -31,4 +31,4 @@ before_install:
 - chmod +x gradlew
 
 script:
-- "./gradlew clean build"
+- "./gradlew build --stacktrace"
