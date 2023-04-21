@@ -2,7 +2,7 @@
 
 Pyxis is a native Pandora Radio client for Android ROMs that do not have Google Play Services.
 
-<center> <img src="https://github.com/rowland007/Pyxis/blob/docs/docs/screenshots/screenshot-main_activity.png?raw=true" width="50%"> </center>
+<center> <img src="https://raw.githubusercontent.com/rowland007/Pyxis/28e94d059fac2ba8b1a57af30f1a6926f45e9579/docs/screenshots/screenshot-main_activity.png" width="50%"> </center>
 
 The idea is to closely mirror that of the actual application to make the transition easier for end users.
 
