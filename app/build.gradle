@@ -1,9 +1,11 @@
 android {
-    compileSdkVersion 32
+    namespace = "com.randarlabs.pyxis"
+    testNamespace = "com.randarlabs.testpyxis"
+    compileSdkVersion 33
     defaultConfig {
         applicationId "com.randarlabs.pyxis"
         minSdkVersion 29
-        targetSdkVersion 32
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
